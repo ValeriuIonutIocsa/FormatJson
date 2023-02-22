@@ -1,0 +1,17 @@
+ext {
+    mainClass = 'com.personal.json.AppStartFormatJson'
+    projectVersion = '1.0.0'
+    jarFolderPath = 'C:\\IVI\\Apps\\Scripts\\General\\FormatJson'
+
+    subProjectNames = [
+            ':io-utils'
+    ]
+    compileClassPaths = [
+            'com.google.code.gson:gson:2.10.1'
+    ]
+    compileJarFilePaths = []
+    testCompileClassPaths = []
+    testCompileJarFilePaths = []
+}
+
+apply from: gradle.ext.rootDirPath + '/common_build.gradle'
